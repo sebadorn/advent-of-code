@@ -1,6 +1,3 @@
-#![allow(unused_variables)]
-#![allow(unused_mut)]
-
 use std::fs;
 
 
@@ -140,7 +137,7 @@ fn main() {
     // Populate a height grid
     let mut grid: Vec<Vec<u32>> = Vec::new();
 
-    for (i, line) in content.lines().enumerate() {
+    for line in content.lines() {
         let mut row: Vec<u32> = Vec::new();
 
         for tree in line.chars() {
