@@ -1,4 +1,6 @@
 # Directories
+/2022/day_16/
 target
 
 # Files
+*.code-workspace
