@@ -5,3 +5,5 @@ target
 # Files
 *.code-workspace
 *.sublime-*
+input.txt
+test.txt
